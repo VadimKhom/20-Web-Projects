@@ -11,4 +11,19 @@ function showError(input, message) {
     const small = formControl.querySelector('small');
     small.innerText = message;
 }
-form.addEventListener('submit', function(e) {})
+
+// Show succes outline
+function showSuccess(input) {
+    const form - control = input.parentElement;
+}
+
+// Event listeners
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    if (username.value === '') {
+        showError(username, 'Username is required');
+    } else {
+        showSuccess(username);
+    }
+});
