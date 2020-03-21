@@ -12,9 +12,10 @@ function showError(input, message) {
     small.innerText = message;
 }
 
-// Show succes outline
+// Show success outline
 function showSuccess(input) {
-    const form - control = input.parentElement;
+    const formcontrol = input.parentElement;
+    formControl.className = 'form-control succes';
 }
 
 // Event listeners
