@@ -27,30 +27,4 @@ function isValidEmail(email) {
 // Event listeners
 form.addEventListener("submit", function(e) {
     e.preventDefault();
-
-    if (username.value === "") {
-        showError(username, "Username is required");
-    } else {
-        showSuccess(username);
-    }
-
-    if (email.value === "") {
-        showError(username, "Email is required");
-    } else if (!isValidEmail(email.value)) {
-        showError(username, "Email is not valid");
-    } else {
-        showSuccess(username);
-    }
-
-    if (password.value === "") {
-        showError(username, "Password is required");
-    } else {
-        showSuccess(username);
-    }
-
-    if (password2.value === "") {
-        showError(username, "Password 2 is required");
-    } else {
-        showSuccess(username);
-    }
 });
