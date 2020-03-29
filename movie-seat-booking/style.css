@@ -30,3 +30,8 @@ body {
     -webkit-appearance: none;
     appearance: none;
 }
+
+.container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
