@@ -15,4 +15,8 @@ function setMovieData(movieIndex, moviePrice) {
 }
 
 // Update total and count
-function updateSelectedCount() {}
+function updateSelectedCount() {
+    const selectedSeats = document.querySelectorAll(".row .seat.selected");
+
+    const seatsIndex = [...selectedSeats].map((seat) => [...seats].indexOf(seat));
+}
