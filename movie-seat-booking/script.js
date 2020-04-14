@@ -38,4 +38,6 @@ function populateUI() {
             }
         });
     }
+
+    const selectedMovieIndex = localStorage.getItem("selectedMovieIndex");
 }
