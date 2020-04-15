@@ -45,3 +45,6 @@ function populateUI() {
         movieSelect.selectedIndex = selectedMovieIndex;
     }
 }
+
+// Movie select event
+movieSelect.addEventListener();
