@@ -28,6 +28,7 @@ function updateSelectedCount() {
     total.innerText = selectedSeatsCount * ticketPrice;
 }
 
+// Get data from localstorage and populate UI
 function populateUI() {
     const selectedSeats = JSON.parse(localStorage.getItem("selectedSeats"));
 
