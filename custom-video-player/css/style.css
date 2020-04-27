@@ -51,3 +51,7 @@ h1 {
 .controls .fa-stop {
     color: #dc3545;
 }
+
+.controls .fa-pause {
+    color: #fff;
+}
