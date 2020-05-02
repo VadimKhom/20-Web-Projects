@@ -21,3 +21,8 @@ function updatePlayIcon() {
         play.innerHTML = '<i class="fa fa-pause fa-2x"></i>';
     }
 }
+
+// Set video time to progress
+function setVideoProgress() {
+    video.currentTime = (+progress.value * video.duration) / 100;
+}
