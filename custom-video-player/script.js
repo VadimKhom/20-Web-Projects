@@ -21,6 +21,7 @@ function updatePlayIcon() {
         play.innerHTML = '<i class="fa fa-pause fa-2x"></i>';
     }
 }
+
 // Update progress & timestamp
 function updateProgress() {
     progress.value = (video.currentTime / video.duration) * 100;
@@ -44,6 +45,7 @@ function updateProgress() {
 function setVideoProgress() {
     video.currentTime = (+progress.value * video.duration) / 100;
 }
+
 // Stop video
 function stopVideo() {
     video.currentTime = 0;
