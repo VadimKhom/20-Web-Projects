@@ -22,3 +22,9 @@ function caclulate() {
             amountEl_two.value = (amountEl_one.value * rate).toFixed(2);
         });
 }
+
+// Event listeners
+currencyEl_one.addEventListener("change", caclulate);
+amountEl_one.addEventListener("input", caclulate);
+currencyEl_two.addEventListener("change", caclulate);
+amountEl_two.addEventListener("input", caclulate);
