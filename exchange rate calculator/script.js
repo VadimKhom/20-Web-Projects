@@ -28,3 +28,12 @@ currencyEl_one.addEventListener("change", caclulate);
 amountEl_one.addEventListener("input", caclulate);
 currencyEl_two.addEventListener("change", caclulate);
 amountEl_two.addEventListener("input", caclulate);
+
+swap.addEventListener("click", () => {
+    const temp = currencyEl_one.value;
+    currencyEl_one.value = currencyEl_two.value;
+    currencyEl_two.value = temp;
+    caclulate();
+});
+
+caclulate();
