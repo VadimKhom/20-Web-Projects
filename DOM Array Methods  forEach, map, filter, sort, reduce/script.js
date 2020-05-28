@@ -26,3 +26,10 @@ async function getRandomUser() {
 
     console.log(newUser);
 }
+
+// Add new obj to data arr
+function addData(obj) {
+    data.push(obj);
+
+    updateDOM();
+}
