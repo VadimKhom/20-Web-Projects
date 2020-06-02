@@ -11,10 +11,9 @@ getRandomUser();
 getRandomUser();
 getRandomUser();
 
-//Fetch random user and add money
-
+// Fetch random user and add money
 async function getRandomUser() {
-    const res = await fetch("http://randomuser.me/api");
+    const res = await fetch("https://randomuser.me/api");
     const data = await res.json();
 
     const user = data.results[0];
@@ -24,7 +23,7 @@ async function getRandomUser() {
         money: Math.floor(Math.random() * 1000000),
     };
 
-    console.log(newUser);
+    addData(newUser);
 }
 
 // Double eveyones money
@@ -69,7 +68,7 @@ function addData(obj) {
     updateDOM();
 }
 
-//Update DOM
+// Update DOM
 function updateDOM(providedData = data) {
     // Clear main div
     main.innerHTML = "<h2><strong>Person</strong> Wealth</h2>";
