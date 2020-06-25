@@ -155,3 +155,7 @@ button:focus {
 .modal-content {
     padding: 20px;
 }
+
+.modal-form div {
+    margin: 15px 0;
+}
