@@ -177,3 +177,12 @@ button:focus {
     top: 0;
     right: 0;
 }
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
