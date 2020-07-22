@@ -49,3 +49,7 @@ h1 {
 .wrong-letters-container p {
     margin: 0 0 5px;
 }
+
+.wrong-letters-container span {
+    font-size: 24px;
+}
