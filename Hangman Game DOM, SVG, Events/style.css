@@ -106,3 +106,7 @@ h1 {
 .popup button:active {
     transform: scale(0.98);
 }
+
+.popup button:focus {
+    outline: 0;
+}
