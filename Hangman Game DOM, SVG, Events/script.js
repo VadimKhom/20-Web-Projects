@@ -10,3 +10,5 @@ const figureParts = document.querySelectorAll("figure-part");
 const words = ["application", "programming", "interface", "wizard"];
 
 let selectedWord = word[Math.floor(Math.random() * words.length)];
+
+const correctLetters = [];
