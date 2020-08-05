@@ -13,3 +13,5 @@ let selectedWord = word[Math.floor(Math.random() * words.length)];
 
 const correctLetters = [];
 const wrongLetters = [];
+
+const innerWord = wordEl.innerText.replace(/\n/g, '');
