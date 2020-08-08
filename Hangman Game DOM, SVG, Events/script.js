@@ -34,3 +34,8 @@ function showNotification(){
         notification.classList.remove('show');
     },2000);
 }
+
+// Update the wrong letters
+function updateWrongLettersEl() {
+    
+}
