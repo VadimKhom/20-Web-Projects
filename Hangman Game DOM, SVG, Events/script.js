@@ -37,5 +37,9 @@ function showNotification(){
 
 // Update the wrong letters
 function updateWrongLettersEl() {
-    
+    // Display wrong letters
+  wrongLettersEl.innerHTML = `
+  ${wrongLetters.length > 0 ? '<p>Wrong</p>' : ''}
+  ${wrongLetters.map(letter => `<span>${letter}</span>`)}
+`;
 }
